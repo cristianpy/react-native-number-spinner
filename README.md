@@ -1,30 +1,30 @@
-rn-spinner
+react-native-number-spinner-v2
 ---
 
 [![NPM version][npm-image]][npm-url]
 [![npm download][download-image]][download-url]
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-[npm-image]: http://img.shields.io/npm/v/rn-spinner.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rn-spinner
-[download-image]: https://img.shields.io/npm/dm/rn-spinner.svg?style=flat-square
-[download-url]: https://npmjs.org/package/rn-spinner
+[npm-image]: http://img.shields.io/npm/v/react-native-number-spinner-v2.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/react-native-number-spinner-v2
+[download-image]: https://img.shields.io/npm/dm/react-native-number-spinner-v2.svg?style=flat-square
+[download-url]: https://npmjs.org/package/react-native-number-spinner-v2
 
 Number Spinner component for react-native.
 
-Based on https://github.com/RNComponents/rn-spinner
+Based on https://github.com/skiddolo/react-native-number-spinner
 
 ## Install
 
 ```
-npm install react-native-number-spinner --save
+npm install react-native-number-spinner-v2 --save
 ```
 
 ## Usage
 
 ```
 // Require
-include Spinner from 'react-native-number-spinner';
+import Spinner from 'react-native-number-spinner-v2';
 
 // Use
 <Spinner max={10}
@@ -61,7 +61,7 @@ height            | custom height of the Spinner | number | 30 |
 
 ## Feedback
 
-[Issues](https://github.com/RNComponents/rn-spinner/issues)
+[Issues](https://github.com/cristianpy/react-native-number-spinner-v2/issues)
 
 ## License
 
