@@ -14,10 +14,16 @@ Number Spinner component for react-native.
 
 Based on https://github.com/skiddolo/react-native-number-spinner
 
-## Install
+## Npm Install
 
 ```
 npm install react-native-number-spinner-v2 --save
+```
+
+## Yarn Install
+
+```
+yarn add react-native-number-spinner-v2
 ```
 
 ## Usage
