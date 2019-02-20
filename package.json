@@ -1,6 +1,6 @@
 {
-  "name": "react-native-number-spinner",
-  "version": "1.1.2",
+  "name": "react-native-number-spinner-v2",
+  "version": "1.0.0",
   "description": "React native input with increase and decrease buttons",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skiddolo/react-native-number-spinner.git"
+    "url": "git+https://github.com/cristianpy/react-native-number-spinner-v2.git"
   },
   "keywords": [
     "reactnative",
     "spinner",
     "number"
   ],
-  "author": "skiddolo <skiddolo@gmail.com>",
+  "author": {
+    "user": "cristianpy",
+    "name": "Cristian Paniagua",
+    "email": "cristianramonpaniagua@gmail.com",
+    "url": "https://innovaparaguay.com"
+  },
   "license": "MIT"
 }

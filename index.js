@@ -4,7 +4,8 @@ import {
   Text,
   TouchableOpacity
 } from 'react-native';
-var styles = require('./style')
+
+var styles = require('./style');
 
 
 class Spinner extends Component {
@@ -26,26 +27,36 @@ class Spinner extends Component {
     height: 30
 };
 
-  componentWillReceiveProps (nextProps) {
+  componentWillReceiveProps(nextProps) {
     if (nextProps.disabled) {
       this.setState({
         disabled: nextProps.disabled
-    });
+      });
     }
     if (nextProps.min) {
       this.setState({
         min: nextProps.min
-    });
+      });
     }
     if (nextProps.max) {
       this.setState({
         max: nextProps.max
-    });
+      });
     }
     if (nextProps.value !== false) {
       this.setState({
         num: nextProps.value
-    });
+      });
+    }
+    if (nextProps.width !== false) {
+      this.setState({
+        width: nextProps.width
+      });
+    }
+    if (nextProps.height !== false) {
+      this.setState({
+        height: nextProps.height
+      });
     }
   }
 
@@ -54,7 +65,6 @@ class Spinner extends Component {
 };
 
   _increase () {
-      console.log(this.state);
     if (this.state.disabled) return;
 
     if (this.state.max > this.state.num) {
